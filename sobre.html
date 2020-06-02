@@ -4,7 +4,9 @@
 <head>
 	<link rel="icon" type="img/png" href="./imagens/icon/logo.png" />
 	<link href="css/sobre.css" rel="stylesheet" type="text/css"/>
-	<title>MM Sobre</title>
+	<script type="text/javascript" src="js/mmjs.js"></script>
+
+	<title>Meditações Matinais-Sobre nós</title>
 	<meta charset="utf-8">
 
 </head>
@@ -15,12 +17,11 @@
 		<div class="logo">
 			<div class="telefone">
 				<div class="iconlogo">
-					<img src="imagens/icon/sol2.png" id="icn" align="center">
+					<a href="index.html"><img src="imagens/icon/sol2.png" id="icn" align="center"></a>
 				</div>
 
-				<div class="resposavel">
-					<img src="imagens/icon/telefone.png" id="icn" align="center">
-					<b>+351 925 860 139</b>
+				<div class="titulo">
+					<a href ="index.html"><p>Meditações Matinais</p></a>
 				</div>	
 			</div>
 
@@ -30,6 +31,7 @@
 
 		<div class="acesso">
 			<div class="redessociais">
+				<a href="#" target="_blank"><img src="imagens/icon/youtube.png" id="icn" align="center"></a>
 				<a href="#" target="_blank"><img src="imagens/icon/zoom.png" id="icn" align="center"></a>
 				<a href="#" target="_blank"><img src="imagens/icon/whatsapp.png" id="icn" align="center"></a>
 				<a href="http://facebook.com" target="_blank"><img src="imagens/icon/facebook.png" id="icn" align="center"></a>
@@ -48,10 +50,12 @@
 
 	<div class="menu">
 		<ul>
-			<li><a href ="index.html">Inicio</a></li>
-			<li><a href ="meditacoes.html">Meditações</a></li>
-			<li><a href ="sobre.html">sobre nós</a></li>
-			<li><a href ="contato.html">Contatos</a></li>
+			<li onmouseover="mudaFotoMenu('imagens/icon/home.png')" onmouseout="mudaFotoMenu('imagens/icon/sobre.png')"><a href ="index.html">Inicio</a></li>
+			<li onmouseover="mudaFotoMenu('imagens/icon/meditacoes.png')"onmouseout="mudaFotoMenu('imagens/icon/sobre.png')"><a href ="meditacoes.html">Meditações</a></li>
+			<li onmouseover="mudaFotoMenu('imagens/icon/sobre.png')"onmouseout="mudaFotoMenu('imagens/icon/sobre.png')"><a href ="sobre.html">sobre nós</a></li>
+			<li onmouseover="mudaFotoMenu('imagens/icon/contato.png')"onmouseout="mudaFotoMenu('imagens/icon/sobre.png')"><a href ="contato.html">Contatos</a></li>
+			
+			<img id="iconeMenu" src="imagens/icon/sobre.png" id="icn" align="center">
 		</ul>	
 	</div>
 
