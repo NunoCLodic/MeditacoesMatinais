@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	background-color:#E0F2F7;
+}
+
+
+
+
+
+/**************************************************/
+.social{
+	background-color:#000000;
+	width: 100%;
+	height: 50px;
+	border-radius: 4px;
+}
+/************************************************/
+.redessociais{
+	width: 70%;
+	height: 40px;
+	float: left;
+	text-align: right;
+	padding-top: 10px;
+}
+.acesso{
+	width: 50%;
+	height: 50px;
+	float: right;
+}
+.site{
+	width: 30%;
+	height: 50px;
+	float: right;
+}
+
+/**********************************/
+.logo{
+	width: 40%;
+	height: 50px;
+	float: left;
+	position:relative;
+}
+/*---------------------*/
+.telefone{
+	width: 50%;
+	height: 40px;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+.iconlogo{
+	width: 50%;
+	height: 37px;
+	float: left;
+	text-align: center;
+}
+.resposavel{
+	width: 50%;
+	height: 37px;
+	float: right;
+	color: green;
+}
+
+/*---------------------*/
+.livre{
+	width: 50%;
+	height: 50px;
+	float: right;
+	text-align: left;
+	color: white;
+}
+/**********************************/
+
+
+.botao {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #8181F7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float:right;
+}
+.botao:hover{
+  background-color: red;
+}
+
+.botao span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.botao span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+  color: white;
+}
+
+.botao:hover span {
+  padding-right: 20px;
+}
+
+.botao:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.menu ul{
+	margin: 0;
+	height: 70px;
+	background-color:rgba(10,23,55,1);
+	list-style:none;
+	border-radius: 4px;
+	text-align: left;
+}
+
+.menu li{
+	display: inlsine-block;
+	background-color: red;
+	padding: 10px; 
+	margin: 1px;
+	border-radius: 20px;
+	transition: background-color 0.4s;
+}
+
+.menu li:hover{
+	background-color: green;
+}
+
+.menu ul li{
+	display: inline;
+}
+.menu ul li: hover{
+	background-color:lightblue;}
+.menu ul li a{
+	padding: 10px 10px;
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+    padding: 26px 10px;
+}
+.interface{
+	display: block;
+	width: 1460px;
+	text-align: justify;
+}
+.primario{
+	display: block;
+	width: 66%;
+	height: 1500px;
+	text-align: justify;
+	float: left;
+	box-shadow: 0px 0px 10px rgba(255,0,0,.7);
+	padding: 15px;
+	margin: 5px 5px 5px 10px;
+}
+.secundario{
+	display: block;
+	width: 27%;
+	height: 1500px;
+	float: right;
+	box-shadow: 0px 0px 10px rgba(255,0,0,.7);
+	padding: 15px;
+	margin: 5px 10px 5px 5px;
+}
